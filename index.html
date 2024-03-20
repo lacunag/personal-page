@@ -17,149 +17,164 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container px-5">
-            <a class="navbar-brand" href="#home"><i class="fas fa-code"></i> LACUNAG</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Conocimientos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contáctame</a></li>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container px-4">
+            <a class="navbar-brand"><i class="fas fa-code"></i>LACUNAG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-list-alt"></i> Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-lightbulb"></i> Habilidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-id-badge"></i> Contacto</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- Header-->
-    <header class="bg-dark py-5" style="height: 400px; " id="home">
-        <div class="container px-5">
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-8">
-                    <div class="text-center my-5">
-                        <h1 class="display-4 fw-bolder text-white mb-2">Luis Ernesto Acuña Gutiérrez</h1>
-                        <p class="lead text-white mb-5">Ingeniero Software - Jefe Proyecto TI</p>
-                        <div class="d-grid gap-2 d-md-block">
-                            <a class="btn btn-outline-light btn-sm mx-2" href="https://cl.linkedin.com/in/luis-acu%C3%B1a-guti%C3%A9rrez-4840b247"> <i class="fab fa-linkedin-in"></i>
-                                Linkedin</a>
-                            <a class="btn btn-outline-light btn-sm mx-2" href="https://github.com/lacunag/"> <i class="fab fa-github"></i>
-                                GitHub</a>
-                        </div>
-                    </div>
-                </div>
+    <header class="bg-dark text-white">
+        <div class="container px-4 text-center">
+            <h1 class="display-4 fw-bolder text-white mb-2">Luis Ernesto Acuña Gutiérrez</h1>
+            <p class="lead text-white mb-5">Software Engineer | Backend Engineer | Project Manager</p>
+            <div class="d-grid gap-2 d-md-block">
+                <a class="btn btn-outline-light btn-sm mx-2" href="https://cl.linkedin.com/in/luis-acu%C3%B1a-guti%C3%A9rrez-4840b247"> <i class="fab fa-linkedin-in"></i> Linkedin</a>
+                <a class="btn btn-outline-light btn-sm mx-2" href="https://github.com/lacunag/"> <i class="fab fa-github"></i> GitHub</a>
             </div>
         </div>
     </header>
     <!-- About section-->
-    <section class="bg-light py-5 border-bottom" id="about">
-        <div class="container px-5 my-5 px-5">
-
-            <div class="text-center mb-5">
-                <h2 class="fw-bolder"><i class="far fa-lightbulb"></i> SOBRE MÍ</h2>
-                <p class="lead mb-0">A continuación te dejo una pequeña descripción de mi perfil y algunos proyectos desarrollados</p>
-            </div>
-
-            <div class="row gx-5 justify-content-center">
-                <div class="col-lg-6">
-                    <div class="card mb-4">
-                        <div class="card-body p-4">
-                            <div class="d-flex">
-                                <div class="flex-shrink-0"><i class="bi bi-chat-right-quote-fill text-primary fs-1"></i>
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-3">Mi nombre es Luis Acuña, profesional del area TI con experiencia en el desarrollo y la gestión de proyectos tecnológicos.</p>
-                                    <p class="mb-3">Gran parte de mi conocimiento en el area ha sido adquirido durante mis años de trabajo, mi alta capacidad analítica y estudios que me respaldan mis trabajos.</p>
-                                    <p class="mb-1">Las actitudes que más destaco son: Liderazgo, Sentido de la organización, Trabajo en Equipo, Planificación y Autodidacta</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    <section id="about">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center display-5">Información Profesional</h2>
+                    <p class="lead text-center mb-5">Explora mi pasión, experiencia y cómo puedo contribuir a tus proyectos. ¡Bienvenido a mi historia!</p>
+                    <p class="text-center">Como ingeniero en software y jefe de proyecto TI, poseo sólidas habilidades en desarrollo de software, liderazgo de equipos y gestión de proyectos. Mi experiencia incluye la implementación exitosa de soluciones tecnológicas innovadoras, el diseño de arquitecturas eficientes y la entrega oportuna de productos de calidad. Además, destaco por mi capacidad para comunicarme de manera efectiva y adaptarme rápidamente a los cambios en el entorno tecnológico. Soy un profesional comprometido y orientado a resultados, capaz de enfrentar desafíos y lograr objetivos en entornos dinámicos de desarrollo de software.</p>
                 </div>
-
-                <div class="col-lg-6">
-                    <div class="card">
-                        <div class="card-body p-4">
-                            <div  class="text-justify">
-                                <details open="">
-                                    <summary class="fw-bolder">Banco Unificado de Datos (Ministerio del Interior y Seguridad Pública de Chile)</summary>
-                                    <p>Esta aplicación permite que nueve instituciones vinculadas al proceso penal, compartan e intercambien información en línea para mejorar la toma de decisiones en el trabajo operativo y contribuir al seguimiento y desarrollo de políticas públicas de seguridad.</p>
-                                </details>
-
-                                <details>
-                                    <summary class="fw-bolder">Receta Médica Electrónica (IMED)</summary>
-                                    <p>Plataforma que permite la creación de recetas médicas digitales. Dentro de sus principales características destacan: emisión, manejo de posologías, firma electrónica y visualización documentos por parte de la farmacia.</p>
-                                </details>
-
-                                <details>
-                                    <summary class="fw-bolder">Firma Electrónica (DEC)</summary>
-                                    <p>DEC es una plataforma digital que permite enviar, almacenar, acceder y firmar documentos electrónicos desde cualquier parte del mundo con validez legal.</p>
-                                </details>
-
-                                <details >
-                                    <summary class="fw-bolder">Gestión de Laboratorios (Ejercito de Chile)</summary>
-                                    <p>Sistema que permite administrar datos, automatizar flujos de trabajo, integrar instrumentos, gestionar datos de laboratorio e información relacionada.</p>
-                                </details>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
-
-    <!-- skills section-->
-    <section class="py-5 border-bottom" id="skills">
-        <div class="container px-5 my-5">
-            <div class="text-center mb-5">
-                <h2 class="fw-bolder"><i class="far fa-lightbulb"></i> CONOCIMIENTOS</h2>
-                <p class="lead mb-0">Detalle general de los conocimientos adquiridos durante mi trayectoria como
-                    profesional en el area TI</p>
+    <!-- Services section-->
+    <section class="bg-light" id="projects">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center display-5">Proyectos Tecnológicos</h2>
+                    <p class="lead text-center mb-5">Cada proyecto muestra mi pasión por la tecnología y mi compromiso con la excelencia. ¡Explora y contáctame para más información!</p>
+                    <div class="row">
+                        <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="card shadow">
+                                <img src="assets/img/01.png" class="card-img-top" height="160">
+                                <div class="card-body">
+                                    <span class="badge text-bg-dark mb-3">ACEPTA</span>
+                                    <h5 class="card-title">Firma Electronica de Documentos</h5>
+                                    <p class="card-text">DEC es una plataforma digital que permite enviar, almacenar, acceder y firmar documentos electrónicos desde cualquier parte del mundo con validez legal.</p>
+                                    <a href="https://5.dec.cl" class="btn btn-dark d-grid">Link Web</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="card shadow">
+                                <img src="assets/img/02.png" class="card-img-top" height="160">
+                                <div class="card-body">
+                                    <span class="badge text-bg-dark mb-3">IMED</span>
+                                    <h5 class="card-title">Receta Médica Electrónica</h5>
+                                    <p class="card-text">Plataforma que permite la creación de recetas médicas digitales. Dentro de sus principales características destacan: emisión, manejo de posologías, firma electrónica y visualización documentos.</p>
+                                    <a href="https://www.mimed.com/recetas" class="btn btn-dark d-grid">Link Web</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-4 mb-3 mb-sm-0">
+                            <div class="card shadow">
+                                <img src="assets/img/03.png" class="card-img-top" height="160">
+                                <div class="card-body">
+                                    <span class="badge text-bg-dark mb-3">Ministerio del Interior</span>
+                                    <h5 class="card-title">Banco Unificado de Datos</h5>
+                                    <p class="card-text">Esta aplicación permite que instituciones vinculadas al proceso penal, compartan e intercambien información para mejorar la toma de decisiones y contribuir al seguimiento y desarrollo de políticas públicas.</p>
+                                    <a href="https://cead.spd.gov.cl/banco-unificado-de-datos/" class="btn btn-dark d-grid">Link Web</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div class="text-center mb-2">
-                <span class="badge bg-dark p-4">PHP</span>
-                <span class="badge bg-dark p-4 m-2">.NET</span>
-                <span class="badge bg-dark p-4 m-2">SQL</span>
-                <span class="badge bg-dark p-4 m-2">HTML</span>
-                <span class="badge bg-dark p-4 m-2">PYTHON</span>
-                <span class="badge bg-dark p-4 m-2">JAVASCRIPT</span>
-                <span class="badge bg-dark p-4 m-2">CSS</span>
-                <span class="badge bg-dark p-4 m-2">C#</span>
-            </div>
-
-            <div class="text-center">
-                <span class="badge bg-dark p-3 m-2">AGILE</span>
-                <span class="badge bg-dark p-3 m-2">SCRUM</span>
-                <span class="badge bg-dark p-3 m-2">KANBAN</span>
+        </div>
+    </section>
+    <!-- Contact section-->
+    <section id="skills">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-center display-5">Área de conocimiento</h2>
+                    <p class="lead text-center mb-5">Este conjunto de habilidades me ha permitido desarrollar soluciones innovadoras y efectivas en una variedad de proyectos.</p>
+                    <div class="text-center mb-2">
+                        <span class="badge bg-dark p-4">PHP</span>
+                        <span class="badge bg-dark p-4 m-2">.NET</span>
+                        <span class="badge bg-dark p-4 m-2">SQL</span>
+                        <span class="badge bg-dark p-4 m-2">HTML</span>
+                        <span class="badge bg-dark p-4 m-2">PYTHON</span>
+                        <span class="badge bg-dark p-4 m-2">JAVASCRIPT</span>
+                        <span class="badge bg-dark p-4 m-2">CSS</span>
+                        <span class="badge bg-dark p-4 m-2">C#</span>
+                    </div>
+        
+                    <div class="text-center">
+                        <span class="badge bg-dark p-3 m-2">AGILE</span>
+                        <span class="badge bg-dark p-3 m-2">SCRUM</span>
+                        <span class="badge bg-dark p-3 m-2">KANBAN</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Contact section-->
-    <section class="bg-light py-5" id="contact">
-        <div class="container mt-5">
-            <div class="justify-content-center">
-                <iframe
-                    src="https://docs.google.com/forms/d/e/1FAIpQLScA9NFO_BFDxPVfTaRecsO71t3H84yP4F8Z5Jf_IJ5mSrDquQ/viewform?usp=sf_link"
-                    width="100%" height="670" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    <section class="bg-light"  id="contact">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="display-6 text-center">Contáctame</h2>
+                    <p class="lead text-center mb-5">Contacto directo para preguntas, colaboraciones y comentarios. </p>
+                    <p class="text-center">Si tienes preguntas, comentarios o deseas explorar oportunidades de colaboración, no dudes en ponerte en contacto conmigo. Puedes enviar un correo electrónico a <strong><a href="mailto:luis.acuna2008@gmail.com" class="text-dark">luis.acuna2008@gmail.com</a></strong> o contactarme directamente a través de teléfono o WhatsApp al <a href="tel:+56949182122" class="text-dark">+56949182122</a>. </p>
+                </div>
             </div>
         </div>
     </section>
     <!-- Footer-->
     <footer class="py-5 bg-dark">
-        <div class="container px-5">
-            <p class="m-0 text-center text-white">Copyright &copy; Luis Acuña 2023 </p>
-        </div>
+        <div class="container px-4"><p class="m-0 text-center text-white">© 2024 Lacunag - Todos los derechos reservados</p></div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Selecciona todos los elementos de enlace del menú de navegación
+            const navLinks = document.querySelectorAll(".navbar-nav a");
+    
+            // Agrega un evento de clic suave para cada enlace
+            navLinks.forEach(function (link) {
+                link.addEventListener("click", function (e) {
+                    e.preventDefault(); // Previene el comportamiento predeterminado del enlace
+                    const targetId = this.getAttribute("href").substring(1); // Obtiene el ID de la sección objetivo
+                    const targetSection = document.getElementById(targetId); // Obtiene la sección objetivo
+                    const yOffset = -60; // Ajusta el desplazamiento según sea necesario
+    
+                    if (targetSection) {
+                        const targetPosition = targetSection.getBoundingClientRect().top + window.scrollY;
+                        window.scrollTo({
+                            top: targetPosition + yOffset,
+                            behavior: "smooth", // Hace que el desplazamiento sea suave
+                        });
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
